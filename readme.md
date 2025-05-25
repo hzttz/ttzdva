@@ -64,7 +64,7 @@ VoiceRecorderCLI
 
 ## 3. 流程图
 
-![流程图](img\流程图.png)
+![流程图](img/流程图.png)
 
 ## 4. 上手使用
 
@@ -90,15 +90,15 @@ pip install -r requirements.txt
 
 #### 4.31 [deepseek](https://platform.deepseek.com/usage) API获取
 
-![image-20250524164355948](img\deepseek_get_api)
+![image-20250524164355948](img/deepseek_get_api)
 
 进入deepseek开放平台：
 
-![image-20250524164542643](img\deepseek_get_api2)
+![image-20250524164542643](img/deepseek_get_api2)
 
 #### 4.32 [StepFun](https://platform.stepfun.com/interface-key) API获取
 
-![image-20250524164942737](img\stepfun_get_api)
+![image-20250524164942737](img/stepfun_get_api)
 
 #### 4.33 配置API
 
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 
 WIN+R 调出运行框，键入 "sysdm.cpl" 打开系统高级设置，
 
-![image-20250524170301664](img\add_system_kv)
+![image-20250524170301664](img/add_system_kv)
 
 方式2：直接在代码中配置
 
@@ -114,7 +114,7 @@ WIN+R 调出运行框，键入 "sysdm.cpl" 打开系统高级设置，
 
 ![image-20250524170722759](img/change_api_value)
 
-![image-20250524170955139](img\changed_api_value)
+![image-20250524170955139](img/changed_api_value)
 
 ### 4.4 安装配置MySQL（可选）
 
@@ -151,7 +151,7 @@ promt文本可添加扩展信息，新增背景信息，环境信息，从而加
 
 打开项目文件夹目录下的promt.txt，添加数据库连接及表信息：
 
-![image-20250525175906006](img\数据库扩展01)
+![image-20250525175906006](img/数据库扩展01)
 
 结果验证：已在测试视频中验证。
 
@@ -159,16 +159,16 @@ promt文本可添加扩展信息，新增背景信息，环境信息，从而加
 
 打开项目文件夹目录下的promt.txt文件，添加邮件服务器信息：
 
-![image-20250525175437254](img\邮件扩展_01)
+![image-20250525175437254](img/邮件扩展_01)
 
 邮件验证：
 
 指令如下：
 
-![image-20250525175204104](img\邮件扩展_02)
+![image-20250525175204104](img/邮件扩展_02)
 
 结果如下：
 
-![image-20250525175607970](img\邮件扩展_03)
+![image-20250525175607970](img/邮件扩展_03)
 
 5.3
