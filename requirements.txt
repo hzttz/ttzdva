@@ -1,0 +1,8 @@
+pandas
+requests
+keyboard
+pyaudio
+openai
+pymysql
+sounddevice
+soundfile

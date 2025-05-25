@@ -1,0 +1,26 @@
+[MySQL数据库连接]
+{"host": "127.0.0.1",
+"user": "root",
+"password": "ttz123",
+"db": "ttz",
+"charset": 'utf8mb4'}
+[MySQL数据库及表]
+ttz数据库下包含以下数据表：
+audio_logs：记录用户的输入时间（input_time），用户输入内容（user_input），用户可执行指令（ai_command），输入响应（user_response）和错误信息(error_info)
+error_logs：记录程序错误日志，包括uuid（log_id），时间（error_time），用户输入（user_input），错误信息(error_info)
+[邮箱服务器配置]
+优先调用本地outlook客户端处理，如客户端调用失败，再尝试使用以下邮件服务器配置。
+{"method":"IMAP/SMTP",
+"IMAPSERVER":"imap.qq.com",
+"imap_ssl_port":993,
+"SMTPSERVER":"smtp.qq.com",
+"smtp_ssl_port":587,
+"sender_email":"wutaur@qq.com",
+"password":os.getenv("QQMAIL","None")
+}
+IMAP/SMTP 设置方法
+用户名/帐户： wutaur@qq.com
+密码： 存储在系统变量里，变量名：QQMAIL
+电子邮件地址： wutaur@qq.com
+接收邮件服务器： imap.qq.com，使用SSL，端口号993
+发送邮件服务器： smtp.qq.com，使用SSL，端口号465或587
