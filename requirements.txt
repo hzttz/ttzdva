@@ -6,3 +6,4 @@ openai
 pymysql
 sounddevice
 soundfile
+aiomysql
